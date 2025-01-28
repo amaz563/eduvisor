@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "name": "University A",
+        "tuition": "$30,000",
+        "scholarships": "Available",
+        "admissionDeadline": "June 1",
+        "reputation": "High"
+    },
+    {
+        "id": 2,
+        "name": "University B",
+        "tuition": "$25,000",
+        "scholarships": "Limited",
+        "admissionDeadline": "July 15",
+        "reputation": "Medium"
+    },
+    {
+        "id": 3,
+        "name": "University C",
+        "tuition": "$40,000",
+        "scholarships": "Available",
+        "admissionDeadline": "May 1",
+        "reputation": "High"
+    },
+    {
+        "id": 4,
+        "name": "University D",
+        "tuition": "$20,000",
+        "scholarships": "None",
+        "admissionDeadline": "August 1",
+        "reputation": "Low"
+    },
+    {
+        "id": 5,
+        "name": "University E",
+        "tuition": "$35,000",
+        "scholarships": "Available",
+        "admissionDeadline": "April 15",
+        "reputation": "Medium"
+    }
+]
