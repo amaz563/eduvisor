@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import UniversityComparison from './components/UniversityComparison';
 import UniversityDetail from './components/UniversityDetail';
 import Chatbot from './components/Chatbot';
@@ -11,13 +11,13 @@ const App = () => {
         <Router>
             <div>
                 <h1>Graduvisor</h1>
-                <Switch>
-                    <Route path="/" exact component={UniversityComparison} />
-                    <Route path="/university/:id" component={UniversityDetail} />
-                    <Route path="/chatbot" component={Chatbot} />
-                    <Route path="/career-quiz" component={CareerQuiz} />
-                    <Route path="/scholarships" component={ScholarshipList} />
-                </Switch>
+                <Routes>
+                    <Route path="/" element={<UniversityComparison />} />
+                    <Route path="/university/:id" element={<UniversityDetail />} />
+                    <Route path="/chatbot" element={<Chatbot />} />
+                    <Route path="/career-quiz" element={<CareerQuiz />} />
+                    <Route path="/scholarships" element={<ScholarshipList />} />
+                </Routes>
             </div>
         </Router>
     );
